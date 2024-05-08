@@ -2,7 +2,7 @@ import os
 import speech_recognition as sr
 import cohere
 
-cohere_client= cohere.Client('Pb0qKlkqiBBJhxSiJnXbrqKwsWKYPvr5CZsF0mTF')
+cohere_client= cohere.Client('API_KEY')
 
 def listen():
     recognizer= sr.Recognizer()
